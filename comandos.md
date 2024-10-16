@@ -9,3 +9,5 @@
 9- crear Rest API: GET POST en tasks y otra en [id] con GET PUT y DELETE
 10- crear carpeta libs con prisma y exportar 
 11- importar prisma en las paginas para relizar las peticiones
+12- desde route.js de api/tasks hago los GET y POST de las tasks
+13- desde route.js de api/task/[id] hago el GET de la task
