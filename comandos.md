@@ -1,3 +1,8 @@
+npx create-next-app nextjs-prisma-crud
+ npm install prisma -D
+  npx prisma init --datasource-provider sqlite
+  npx prisma migrate dev --name init
+
 1- borrar lo de page.js y colocar un HomePage
 2- renombrar a page.jsx y layout.jsx
 3- borrar en globals.css todo menos lo de tailwind y colocar un body
