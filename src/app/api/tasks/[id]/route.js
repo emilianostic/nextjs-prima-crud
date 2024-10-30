@@ -7,7 +7,7 @@ const task = await prisma.task.findUnique({
         id: Number(params.id)
     }
 })
-return NextResponse.json(task )
+return NextResponse.json(task)
 }
 
 export async function PUT(request, {params}){
