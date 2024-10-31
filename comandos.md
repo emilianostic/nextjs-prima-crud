@@ -21,4 +21,7 @@ en el componente cliente page.jsx de la carpeta app creo un formulario para crea
 Se coloca un onSubmit con un prevent default en el formulario que tomará lo de e.target.algo.value de los imputs
 se hace una petición fetch api/tasks con método POST con un body y un headers que luego se guarda en una const data como json para colocarla en las tareas junto a las que ya estaban por lo que se importa router desde next/navigation y se hace el router.push('/')
 Fuera de la app/page.jsx que es un componente BE? hacemos el listado de tareas tomando las de la db. Se usa prisma para acceder y se hace un mapeo donde se van colocando las diferentes características de la tarea en elementos html, luego se separa en un componente FE (TaskCard)donde se pasa task por props para luego exportarla a app/page.jsx para que quede mas ordendado.
-Se hace un router en TaskCard para que vaya a la tarjeta con el id de la misma por lo que se debe crear una carpta/tasks/edit/[id]
+Se hace un router en TaskCard para que vaya a la tarjeta con el id de la misma por lo que se debe crear una carpta/tasks/edit/[id] con page.jsx donde importo NewPage de /new/page.jsx para poder tener el form para editar. Desde /new solo creo.
+
+
+ 
